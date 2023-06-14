@@ -1,5 +1,6 @@
 from flask import Flask
 from markupsafe import Markup
+from jinja2 import Markup, escape
 
 app = Flask(__name__)
 
